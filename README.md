@@ -11,7 +11,7 @@ This assignment is worth 10 points. Each question is worth one point.
 | Questions | C++ Code Completion | Docker Completion | Final Review? |
 | ----------- | ----------- | ----------- | ----------- |
 | 1 | ✖️ | ✖️ | ✖️ |
-| 2 | ✖️ | ✖️ | ✖️ |
+| 2 | ✔️ | ✖️ | ✖️ |
 | 3 | ✖️ | ✖️ | ✖️ |
 | 4 | ✔️ | ✖️ | ✖️ |
 | 5 | ✔️ | ✖️ | ✖️ |
