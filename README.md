@@ -21,8 +21,14 @@ This assignment is worth 10 points. Each question is worth one point.
 | 9 | ✖️ | ✖️ | ✖️ |
 | 10 | ✖️ | ✖️ | ✖️ |
 
+# Questions for Thiago
+For Question 1, is it fine to use the built in Visual Studio sorting algorithm?
 
-***Questions:*** 
+What exactly are you looking for in the README complementary answers?
+
+Do we have to do any error catching/validation?
+
+# Questions (copied from PDF)
 
 ## Question 1
 **1:** You are tasked with implementing a function, findTargetSum, to efficiently (you are allowed to 
