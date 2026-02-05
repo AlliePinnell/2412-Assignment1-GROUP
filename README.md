@@ -8,6 +8,20 @@ one subdirectory per question and name them question_x for the x questions.
 
 This assignment is worth 10 points. Each question is worth one point. 
 
+| Questions | C++ Code Completion | Docker Completion | Final Review? |
+| ----------- | ----------- | ----------- | ----------- |
+| 1 | ✖️ | ✖️ | ✖️ |
+| 2 | ✖️ | ✖️ | ✖️ |
+| 3 | ✖️ | ✖️ | ✖️ |
+| 4 | ✔️ | ✖️ | ✖️ |
+| 5 | ✔️ | ✖️ | ✖️ |
+| 6 | ✖️ | ✖️ | ✖️ |
+| 7 | ✖️ | ✖️ | ✖️ |
+| 8 | ✖️ | ✖️ | ✖️ |
+| 9 | ✖️ | ✖️ | ✖️ |
+| 10 | ✖️ | ✖️ | ✖️ |
+
+
 ***Questions:*** 
 
 ## Question 1
