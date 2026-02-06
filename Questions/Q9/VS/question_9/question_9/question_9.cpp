@@ -2,7 +2,10 @@
 #include <string>
 #include <cctype> 
 
-bool isPalindrome(const std::string& str) {
+bool isPalindrome(const std::string& str) { 
+}
+
+bool isPalindromeTemplate(const std::string& str) {
     int L = 0;
     int R = str.length() - 1;
 
@@ -17,6 +20,7 @@ bool isPalindrome(const std::string& str) {
     }
     return true;
 }
+
 
 int main() {
     std::string input;
