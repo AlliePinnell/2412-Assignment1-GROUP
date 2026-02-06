@@ -16,7 +16,7 @@ This assignment is worth 10 points. Each question is worth one point.
 | 4 | ✔️ | ✖️ | ✖️ |
 | 5 | ✔️ | ✖️ | ✖️ |
 | 6 | ✖️ | ✖️ | ✖️ |
-| 7 | ✖️ | ✖️ | ✖️ |
+| 7 | ✔️ | ✖️ | ✖️ |
 | 8 | ✖️ | ✖️ | ✖️ |
 | 9 | ✖️ | ✖️ | ✖️ |
 | 10 | ✖️ | ✖️ | ✖️ |
@@ -29,6 +29,8 @@ What exactly are you looking for in the README complementary answers?
 Do we have to do any error catching/validation for questions that do not specify it?
 
 Are we allowed to use the built in pop and push in the #include stack?
+
+For question 8, do we need to actually print the time of the preformance using something like the chrono module
 
 # Questions (copied from PDF)
 
