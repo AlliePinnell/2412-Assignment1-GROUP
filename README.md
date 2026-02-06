@@ -15,7 +15,7 @@ This assignment is worth 10 points. Each question is worth one point.
 | 3 | ✖️ | ✖️ | ✖️ |
 | 4 | ✔️ | ✖️ | ✖️ |
 | 5 | ✔️ | ✖️ | ✖️ |
-| 6 | ✖️ | ✖️ | ✖️ |
+| 6 | ✔️ | ✖️ | ✖️ |
 | 7 | ✔️ | ✖️ | ✖️ |
 | 8 | ✖️ | ✖️ | ✖️ |
 | 9 | ✖️ | ✖️ | ✖️ |
