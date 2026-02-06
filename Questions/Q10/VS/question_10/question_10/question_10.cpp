@@ -1,20 +1,28 @@
-// question_10.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+class CircularQueue {
+private:
+    int front, rear, capacity;
+    int* array;
 
-#include <iostream>
+public:
+    // Constructor and other necessary declarations 
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+    void enqueue(int element) {
+        // Implementation of enqueue operation 
+    }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+    int dequeue() {
+        // Implementation of dequeue operation 
+    }
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+    int getFront() {
+        // Implementation of front operation 
+    }
+
+    bool isEmpty() {
+        // Implementation of isEmpty operation 
+    }
+
+    bool isFull() {
+        // Implementation of isFull operation 
+    }
+};
