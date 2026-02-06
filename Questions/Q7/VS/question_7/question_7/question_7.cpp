@@ -20,9 +20,12 @@ void outputSinglyLinkedList(node*& head) {
     }
 }
 
-bool isBalanced(const std::string& parentheses) { 
+bool isBalanced(const std::string& parentheses) {
+    char oldTop;
     node* newTop = nullptr;
     node* top = nullptr;
+
+    node* tp = nullptr;
 
     int strLength = parentheses.length();
     std::cout << "String Length: " << strLength << "\n";
@@ -32,23 +35,32 @@ bool isBalanced(const std::string& parentheses) {
     }
 
     for (char i = 0; i < strLength; i++) {
-        if (i == '(' || i == ')') {
-            std::cout << parentheses[i] << "\n";
+        std::cout << parentheses[i] << "\n";
+        if (parentheses[i] == '(') {
             newTop = new node(parentheses[i]);
             newTop->next = top;
             top = newTop;
+        }
+        else if (parentheses[i] == ')') {
+            if (top == nullptr) {
+                return false;
+            }
+
+            tp = top;
+            top = top->next;
+            oldTop = tp->data;
+            delete tp;
         }
         else {
             std::cout << "Characters besides '(' and ')' found! ";
             return false;
         }
     }
-
     std::cout << "\n";
     outputSinglyLinkedList(top);
 
     return true;
-} 
+}
 
 
 int main() { 
