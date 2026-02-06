@@ -26,7 +26,7 @@ For Question 1, is it fine to use the built in Visual Studio sorting algorithm?
 
 What exactly are you looking for in the README complementary answers?
 
-Do we have to do any error catching/validation?
+Do we have to do any error catching/validation for questions that do not specify it?
 
 Are we allowed to use the built in pop and push in the #include stack?
 
