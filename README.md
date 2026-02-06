@@ -28,6 +28,8 @@ What exactly are you looking for in the README complementary answers?
 
 Do we have to do any error catching/validation?
 
+Are we allowed to use the built in pop and push in the #include <stack>?
+
 # Questions (copied from PDF)
 
 ## Question 1
