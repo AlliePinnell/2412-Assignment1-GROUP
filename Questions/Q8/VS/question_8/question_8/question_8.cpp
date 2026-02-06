@@ -1,20 +1,44 @@
-// question_8.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+
+struct node {
+    int data;
+    node* next;
+};
+
+node* top = nullptr;
+node* bottom = nullptr;
+
+
+void badPop() {
+    e = top->data;
+    tp = bottom;
+    while (tp->next != top)
+    {
+        tp = tp->next;
+    }
+    top = tp;
+    delete tp->next;
+    tp->next = nullptr;
+    return e;
+}
+
+void goodWay() {
+    if (top == nullptr) {
+        return;
+    }
+
+    node* tp = top;
+    top = top->next;
+    e = tp->data;
+    delete tp;
+    return e;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int sizes[] = { 10, 100, 1000, 10000, 100000 };
+
+	for (int n : sizes) {
+
+	}
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
