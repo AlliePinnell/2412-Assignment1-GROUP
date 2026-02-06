@@ -57,7 +57,7 @@ int PopLL() {
 
     node* tp = top;
     top = top->next;
-    e = tp->data;
+    int e = tp->data;
     delete tp;
     return e;
 }
@@ -95,11 +95,13 @@ int main()
         arr.resize(n);
 
         for (int i = 0; i < n; ++i) {
-            //PushLL(i);
+            PushLL(i);
             PushArray(i);
         }
 
         std::cout << "Pushed " << n << " elements | array size = " << arr.size();
+        std::cout << "\n";
+        std::cout << "Pushed " << n << " elements | linked list size = " << outputSinglyLinkedList();
         std::cout << "\n";
 
         arrTop = n - 1;
