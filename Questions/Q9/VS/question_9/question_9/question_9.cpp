@@ -3,7 +3,19 @@
 #include <cctype> 
 
 bool isPalindrome(const std::string& str) {
-    // Your code here 
+    int L = 0;
+    int R = str.length() - 1;
+
+    for (int i = 0; i < (str.length() / 2); i++) {
+        if (tolower(str[L]) != tolower(str[R])) {
+            return false;
+        }
+        std::cout << "For Loop running\n";
+        R = str.length() - 1 - i;
+        std::cout << R << "\n";
+        std::cout << "String Length: " << str.length() << "\n";
+    }
+    return true;
 }
 
 int main() {
