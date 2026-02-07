@@ -24,7 +24,7 @@ This assignment is worth 10 points. Each question is worth one point.
 
 # Questions for Thiago
 For Question 1, is it fine to use the built-in Visual Studio sorting algorithm?
-### If not, discover a quadratic or BST, sorting algorithm, which could be used throughout all 10 Questions if needed 
+<strong>If not, discover a quadratic or BST, sorting algorithm, which could be used throughout all 10 Questions if needed</strong>
 
 What exactly are you looking for in the README complementary answers?
 
