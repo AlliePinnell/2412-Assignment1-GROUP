@@ -12,7 +12,7 @@ This assignment is worth 10 points. Each question is worth one point.
 | ----------- | ----------- | ----------- | ----------- |
 | 1 | ✖️ | ✖️ | ✖️ |
 | 2 | ✔️ | ✖️ | ✖️ |
-| 3 | ⚠️ (Cole) | ✖️ | ✖️ |
+| 3 | ➖ (Waiting for Thiago...) | ✖️ | ✖️ |
 | 4 | ✔️ | ✖️ | ✖️ |
 | 5 | ✔️ | ✖️ | ✖️ |
 | 6 | ✔️ | ✖️ | ✖️ |
