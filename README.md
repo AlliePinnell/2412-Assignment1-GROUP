@@ -1,6 +1,6 @@
 # COMP-2412 Assignment 1; Deadline Feb 13, 2026 🤩🐴
 
-Answer the following questions using C++. implement all data structures required for the 
+Answer the following questions using C++. Implement all data structures required for the 
 solutions. Submit a single zip file containing the CMake project folder and solutions for all 
 questions. In your zipfile also include a README document with complementary answers and 
 the names of the executables for each question. Please do not insert your build folder. Create 
@@ -20,10 +20,10 @@ This assignment is worth 10 points. Each question is worth one point.
 | 8 | ⚠️ (Alyssa, Emma) | ✖️ | ✖️ |
 | 9 | ⚠️ (Matthew, Owen) | ✖️ | ✖️ |
 | 10 | ⚠️ (Remy) | ✖️ | ✖️ |
-| Complexity Comments | REMY!!!! | N/A | ✖️ |
+| Complexity Comments | ➖ | N/A | ✖️ <- Need approval | 
 
 # Questions for Thiago
-For Question 1, is it fine to use the built in Visual Studio sorting algorithm?
+For Question 1, is it fine to use the built-in Visual Studio sorting algorithm?
 
 What exactly are you looking for in the README complementary answers?
 
@@ -49,7 +49,7 @@ user for a target sum, and utilize the findTargetSum function to identify and pr
 the pair whose sum matches the specified target. 
 
 Ensure that your solution demonstrates effective handling of random number arrays and 
-showcases the functionality of the findTargetSum function in the context of user-input and array 
+showcases the functionality of the findTargetSum function in the context of user-input and an array 
 manipulation. 
 
 Example usage:
@@ -131,8 +131,8 @@ ListNode* next;
 ListNode(int val) : value(val), next(nullptr) {} 
 };
 ```
-Implement a recursive function recursiveSum that calculates the sum of all elements in a linked 
-list. Also, implement a recursive function recursiveSearch that checks whether a given value 
+Implement a recursive function recursiveSum, that calculates the sum of all elements in a linked 
+list. Also, implement a recursive function, recursiveSearch, that checks whether a given value 
 exists in the linked list. 
 
 Write a C++ program that creates a linked list by asking the user to input values. Once the list is 
@@ -169,7 +169,7 @@ appropriately.
 **7:** Write a C++ function, isBalanced, that takes a string containing only parentheses (( and )) 
 and checks whether the parentheses are balanced. A string is considered balanced if every 
 opening parenthesis has a corresponding closing parenthesis and they appear in the correct 
-order. Use the following code snippet as base for your implementation. 
+order. Use the following code snippet as a base for your implementation. 
 
 ```
 #include <iostream> 
