@@ -7,21 +7,17 @@
     3) printLinkedList -> prints the elements of a linked list
 */
 
-
-
 class ListNode {
 public:
     int value;
     ListNode* next;
 
     ListNode(int val) : value(val), next(nullptr) {}
-
 };
 
 
-
 // 2.1 | Insert Node Function 
-// Time Complexity: Linear - Θ(n) [Θ(1) + Θ(n) => Θ(n)]
+// Time Complexity: Linear - Θ(n^2) [Θ(1) + Θ(n) => Θ(n)]
 ListNode* createSortedLinkedList() {
     ListNode* headNode = nullptr;
     std::string userAns = "";
