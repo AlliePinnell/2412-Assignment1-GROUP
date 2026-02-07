@@ -87,7 +87,5 @@ int main()
 
     std::cout << "Get Front: " << cq.getFront() << std::endl;
 
-
-
     return 0;
 }
