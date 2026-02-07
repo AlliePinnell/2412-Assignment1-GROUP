@@ -18,7 +18,7 @@ This assignment is worth 10 points. Each question is worth one point.
 | 6 | ✔️ | ✖️ | ✖️ |
 | 7 | ✔️ | ✖️ | ✖️ |
 | 8 | ➖ (Waiting for Thiago for "time the performance"...) | ✖️ | ✖️ |
-| 9 | ⚠️ (Matthew, Owen) | ✖️ | ✖️ |
+| 9 | ➖ (Waiting for Thiago for changing given code) | ✖️ | ✖️ |
 | 10 | ✔️ | ✖️ | ✖️ |
 | Complexity Comments | ➖ | N/A | ✖️ | 
 
@@ -37,6 +37,8 @@ Are we allowed to use the built in pop and push in the #include stack?
 For question 8, do we need to actually print the time of the preformance using something like the chrono module
 
 For question 8, do you want multiple implementations of push and pop (using the bad and good versions of both), as well as using the two implementations of stacks (array and linked list)?
+
+For question 9, are we allowed to change the code you gave us?
 
 # Questions (copied from PDF)
 
