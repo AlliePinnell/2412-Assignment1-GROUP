@@ -19,7 +19,7 @@ This assignment is worth 10 points. Each question is worth one point.
 | 7 | ✔️ | ✖️ | ✖️ |
 | 8 | ⚠️ (Alyssa, Emma) | ✖️ | ✖️ |
 | 9 | ⚠️ (Matthew, Owen) | ✖️ | ✖️ |
-| 10 | ⚠️ (Remy) | ✖️ | ✖️ |
+| 10 | ✔️ | ✖️ | ✖️ |
 | Complexity Comments | ➖ | N/A | ✖️ <- Need approval | 
 
 # Questions for Thiago
