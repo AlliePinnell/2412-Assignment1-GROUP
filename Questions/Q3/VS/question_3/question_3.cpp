@@ -1,18 +1,27 @@
 #include <iostream>
 #include <string>
 
+/* Q3:
+    1) mergeSortedLists -> merges two sorted linked lists
+    2) createSortedLinkedList -> creates a sorted linked list from an array of values
+    3) printLinkedList -> prints the elements of a linked list
+*/
+
+
+
 class ListNode {
-
 public:
-
     int value;
-
     ListNode* next;
 
     ListNode(int val) : value(val), next(nullptr) {}
 
 };
 
+
+
+// 2.1 | Insert Node Function 
+// Time Complexity: Linear - Θ(n) [Θ(1) + Θ(n) => Θ(n)]
 ListNode* createSortedLinkedList() {
     ListNode* headNode = nullptr;
     std::string userAns = "";
