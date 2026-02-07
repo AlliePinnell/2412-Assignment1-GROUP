@@ -20,7 +20,7 @@ This assignment is worth 10 points. Each question is worth one point.
 | 8 | ⚠️ (Alyssa, Emma) | ✖️ | ✖️ |
 | 9 | ⚠️ (Matthew, Owen) | ✖️ | ✖️ |
 | 10 | ✔️ | ✖️ | ✖️ |
-| Complexity Comments | ➖ | N/A | ✖️ <- Need approval | 
+| Complexity Comments | ➖ | N/A | ✖️ <- approval needed | 
 
 # Questions for Thiago
 For Question 1, is it fine to use the built-in Visual Studio sorting algorithm?
