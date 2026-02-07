@@ -26,6 +26,8 @@ This assignment is worth 10 points. Each question is worth one point.
 For Question 1, is it fine to use the built-in Visual Studio sorting algorithm?
 <br/>&emsp;-<strong>If not, discover a quadratic or BST, sorting algorithm, which could be used throughout all 10 Questions if needed</strong>
 
+Ask him to look over question 3 (if he can)
+
 What exactly are you looking for in the README complementary answers?
 
 Do we have to do any error catching/validation for questions that do not specify it?
