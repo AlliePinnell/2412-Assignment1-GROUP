@@ -17,7 +17,7 @@ This assignment is worth 10 points. Each question is worth one point.
 | 5 | ✔️ | ✖️ | ✖️ |
 | 6 | ✔️ | ✖️ | ✖️ |
 | 7 | ✔️ | ✖️ | ✖️ |
-| 8 | ⚠️ (Alyssa, Emma) | ✖️ | ✖️ |
+| 8 | ➖ (Waiting for Thiago for "time the performance"...) | ✖️ | ✖️ |
 | 9 | ⚠️ (Matthew, Owen) | ✖️ | ✖️ |
 | 10 | ✔️ | ✖️ | ✖️ |
 | Complexity Comments | ➖ | N/A | ✖️ <- approval needed | 
