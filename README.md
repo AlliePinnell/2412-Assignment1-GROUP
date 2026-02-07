@@ -1,4 +1,4 @@
-# COMP-2412 Assignment 1; Deadline Feb 13, 2026 🤩🐴
+# COMP-2412 Assignment 1; Deadline Feb 13, 2026 🤩🦄‍🪽
 
 Answer the following questions using C++. Implement all data structures required for the 
 solutions. Submit a single zip file containing the CMake project folder and solutions for all 
