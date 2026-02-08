@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cctype>
+using namespace std;
 
 struct node {
 	int data;
@@ -19,7 +20,10 @@ void createDoubleLinkedList(node*& head, node*& tail, const std::string& line) {
 	tail = nullptr;
 
 	for (char c : line) {
-		if (!std::isalnum(c)) continue;
+		if (!std::isalnum(c))
+		{
+			continue;
+		}
 
 		node* newNode = new node(std::tolower(c));
 
@@ -33,7 +37,6 @@ void createDoubleLinkedList(node*& head, node*& tail, const std::string& line) {
 		}
 	}
 }
-
 
 bool isPalindrome(const std::string& str, node* head, node* tail) {
 	node* currentLeft = head;
@@ -55,8 +58,6 @@ bool isPalindrome(const std::string& str, node* head, node* tail) {
 	return true;
 }
 
-using namespace std;
-
 int main() {
 	std::string input;
 	node* head = nullptr;
@@ -74,5 +75,6 @@ int main() {
 	else {
 		std::cout << "The entered string is not a palindrome.\n";
 	}
+
 	return 0;
 }
